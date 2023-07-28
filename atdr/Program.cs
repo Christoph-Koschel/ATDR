@@ -199,7 +199,9 @@ namespace ATDR
                     foreach (string dependency in info.depends)
                     {
                         ChangedItem i = item.value.changedData.GetItem(dependency);
-                        Console.WriteLine(i.oldValue);
+                        if (i.oldValue == null || i.oldValue == "") {
+                            continue;
+                        }
                         string[] parts = i.oldValue.Split(',');
                         string table = parts[0];
                         Guid guid = Guid.Parse(parts[1]);
