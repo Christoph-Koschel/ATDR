@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net4.6.2</TargetFramework>
+    <Version>1.0.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Author>Christoph Koschel</Author>
+    <Product>atdr.basics</Product>
+    <Copyright>Copyright (c) 2023 Christoph Koschel</Copyright>
+    <RootNamespace>ATDR.Basics</RootNamespace>
+    <AssemblyName>ATDR.Basics</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.PowerPlatform.Dataverse.Client" Version="1.1.12" />
+    <ProjectReference Include="..\atdr.extension\atdr.extension.csproj" />
+  </ItemGroup>
+
+</Project>
