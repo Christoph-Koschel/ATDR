@@ -28,13 +28,12 @@ namespace ATDR.Extension
 
         public class Information
         {
-            public bool exists;
             public string logicalName;
             public string uniqueIdentifierName;
             public int priority;
             public string[] preview_data;
             public string[] postProcessing;
-            public string[] depends; // TODO write dependends to automatic select other items that are required to restore this data
+            public string[] depends;
         }
     }
 }

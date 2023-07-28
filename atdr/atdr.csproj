@@ -8,7 +8,7 @@
     <FileVersion>1.0.0.0</FileVersion>
     <Author>Christoph Koschel</Author>
     <Product>atdr</Product>
-    <Description>Audit table data restorer</Description>
+    <Description>Audit Table Data restorer</Description>
     <Copyright>Copyright (c) 2023 Christoph Koschel</Copyright>
     <RootNamespace>ATDR</RootNamespace>
     <AssemblyName>atdr</AssemblyName>
